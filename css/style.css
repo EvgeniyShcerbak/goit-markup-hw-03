@@ -1,3 +1,4 @@
+/* auto reset */
 .link {
     text-decoration: none;
 }
@@ -7,13 +8,44 @@
 button {
     cursor: pointer;
 }
-body {
-    background:#FFF;
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+* {
+    outline: 1px solid tomato;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+/* body */
+
+/* container header  */
+.page-header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+/* logo */
 .logotype {
-    color:#4d5ae5;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -23,98 +55,113 @@ body {
 }
 .logotype-span {
     color: #2E2F42;
-    font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+
+/* navigation */
 .menu-link {
-    color:#2E2F42;
+    color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
 .menu-link:hover,
 .menu-link:focus {
-    color:#404BBF;
+    color: #404BBF;
 }
+/* adssress */
 .address-title {
     font-style: normal;
 }
+
 .address-link {
-    color:#434455;
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
 .address-link:hover,
 .address-link:focus {
-    color:#404BBF;
-}
-.hero-section {
-     background:#2E2F42;
-}     
-.hero-title {    
-     color:#FFF;
-     font-size: 56px;
-     font-weight: 700;
-     line-height: 1.07;
-     letter-spacing: 1.12px;
-     text-align: center;
- }
- .button-main-section {
-     background-color: #4D5AE5;
-     color:#FFF;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 1.5;
-     letter-spacing: 0.64px;
- }
-.button-main-section:hover,
-.button-main-section:focus {
-background-color: #404BBF;
+    color: #404BBF;
 }
 
+/* container main */ 
+
+/* hero section */
+.hero-title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.button-main-section {
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.button-main-section:hover,
+.button-main-section:focus {
+    background-color: #404BBF;
+}
+/* section info */
 .title-name,
 .title-our-team,
 .title-portfolio {
-     color:#2E2F42; 
-     font-size: 36px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 1.11;
-     letter-spacing: 0.02em;
-     text-transform: capitalize;
-     text-align:center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 }
+
 .name-title-list {
-     color: #2E2F42;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 500;
-     line-height: 1.2;
-     letter-spacing: 0.4px;
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
+
 .section-text {
-     color: #434455;
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 1.5;
-     letter-spacing: 0.32px;
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
-.section-our-team {
-    background-color: #F4F4FD
-}
-.our-team-list, 
+/* section our team */
+.our-team-list,
 .our-team-item {
     background-color: #FFFFFF;
 }
+/* section our fortfolio */
+
+
+
+
+/* container footer */
 .page-footer {
     background-color: #2e2f42;
 }
