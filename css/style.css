@@ -8,9 +8,7 @@
 button {
     cursor: pointer;
 }
-* {
-    outline: 1px solid tomato;
-}
+
 h1,
 h2,
 h3,
@@ -33,6 +31,9 @@ img {
 /* body */
 
 /* container header  */
+.container-header {
+    border-bottom: 1px solid #e7e9fc
+}
 
 .menu-container {
     display: flex;
@@ -282,7 +283,7 @@ visibility: hidden;
      font-weight: 400;
      line-height: 1.5;
      letter-spacing: 0.32px;}
-     max-width: 264px;
+     max-width : 264px;
 
 .logotype-span-footer {
     color: #F4F4FD;
