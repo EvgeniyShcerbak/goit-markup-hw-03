@@ -156,10 +156,10 @@ img {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 48px;
 
 }
 
@@ -244,6 +244,7 @@ img {
 }
 
 .info-list-item {
+
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -260,7 +261,6 @@ img {
 }
 
 .section-our-team {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -299,7 +299,6 @@ img {
 
 /* section our fortfolio */
 .section-portfolio {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -339,15 +338,13 @@ img {
 
 .footer-text {
     color: #F4F4FD;
-    ;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    max-width: 264px;
 }
-
-max-width : 264px;
 
 .logotype-span-footer {
     color: #F4F4FD;
@@ -362,6 +359,6 @@ max-width : 264px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    display: inline-block;
+    display: block;
     margin-bottom: 16px;
 }
